@@ -19,7 +19,7 @@ def postInput():
     # 取得前端傳過來的數值
     insertValues = request.get_json()
     x1=insertValues['M']
-    x2=insertValues['Vs30']
+    x2=insertValues['VS30']
     x3=insertValues[ 'r']
     x4=insertValues['PGA_r']
     x5=insertValues['theta']
